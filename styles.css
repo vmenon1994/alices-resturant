@@ -178,7 +178,7 @@ form input[type=text] {
     
   }
 
-form textarea {
+form > textarea {
     border:0;
     border: #000000 solid 3px;
     height: 6em;
