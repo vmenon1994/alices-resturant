@@ -142,7 +142,7 @@ div form {
   margin : 0 auto;
   /* padding: 1em; */
   box-sizing: border-box;
-  background : #FFF url(background.jpg);
+  
 
   /* we create our grid */
   display  : grid;
@@ -152,15 +152,40 @@ div form {
   border: black ;
 }
 
+.contact-us h2 {
+    font-size: 32px;
+}
+
+
 form label {
         font-weight: bold;
+        font-size: 22px;
+}
+
+form input {
+    border:0;
+    border: #000000 solid 3px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    width: 100%;
+    
+}
+form input[type=text] {
+    padding: 10px;
+    margin:10px 0; 
+    
+  }
+
+form input[id=message] {
+    resize: vertical;
+    height: 6em;
 }
 
 footer {
     background: black;
     color: #FFFFFF;
     overflow: hidden;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 30px;
 }
 
