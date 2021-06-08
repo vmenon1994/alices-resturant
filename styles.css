@@ -123,12 +123,14 @@ div.address {
 
 address { 
     font-style: normal;
+    opacity: 75%;
 }
 
 
 div.about {
     float: right;
     padding-right: 200px;
+    opacity: 75%;
 }
 
 div.class {
@@ -176,10 +178,17 @@ form input[type=text] {
     
   }
 
-form input[id=message] {
-    resize: vertical;
+form textarea {
+    border:0;
+    border: #000000 solid 3px;
     height: 6em;
+    padding: 10px;
+    margin:10px 0; 
+    width: 100%;
 }
+
+
+
 
 footer {
     background: black;
