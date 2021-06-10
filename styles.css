@@ -186,9 +186,8 @@ form input[type=text] {
     margin:10px 0; 
     width: 100%;
     overflow: hidden;
+    resize: none;
 }
-
-
 
 
 footer {
